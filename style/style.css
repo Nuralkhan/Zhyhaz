@@ -1,31 +1,50 @@
 body,
 ul,
 li,
-h1{
+h1 {
   margin: 0px;
   padding: 0px;
 }
-ul{
+
+ul {
   list-style: none;
 }
-h1{
+
+h1 {
   font-size: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.nav__text{
-  font-weight: 400;
-font-size: 16px;
-line-height: 50px;
-/* or 312% */
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
 
-color: #202020;
-}
-.nav__list{
-  display: flex;
-}
-.nav__item+.nav__item{
+.nav__item + .nav__item {
   margin-left: 31px;
 }
+
+.nav__list {
+  display: flex;
+}
+.nav__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  /* or 312% */
+  color: #000000;
+}
+
+.category__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category__item {
+  width: 306px;
+  height: 304px;
+}/*# sourceMappingURL=style.css.map */
