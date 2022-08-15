@@ -87,6 +87,19 @@ a {
 .category__item {
   width: 306px;
   height: 304px;
+  position: relative;
+}
+.category__img {
+  margin-left: 60px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+.category__img-back {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  z-index: -1;
 }
 
 .ex {
@@ -97,4 +110,9 @@ a {
 
 .child {
   width: 100%;
+}
+
+.position {
+  position: relative;
+  top: 10px;
 }/*# sourceMappingURL=style.css.map */

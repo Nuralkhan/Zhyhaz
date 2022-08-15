@@ -38,6 +38,8 @@ a {
 
 		color: #202020;
 	}
+	&__item {
+	}
 	&__link {
 	}
 	&__text {
@@ -82,6 +84,19 @@ a {
 	&__item {
 		width: 306px;
 		height: 304px;
+		position: relative;
+	}
+	&__img {
+		margin-left: 60px;
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+	}
+	&__img-back {
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+		z-index: -1;
 	}
 }
 .ex {
@@ -91,4 +106,9 @@ a {
 }
 .child {
 	width: 100%;
+}
+
+.position {
+	position: relative;
+	top: 10px;
 }
