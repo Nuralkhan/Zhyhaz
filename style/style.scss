@@ -85,11 +85,12 @@ a {
 		width: 306px;
 		height: 304px;
 		position: relative;
+		border: 2px dotted black;
 	}
 	&__img {
 		margin-left: 60px;
 		position: absolute;
-		bottom: 0px;
+		bottom: 10%;
 		right: 0;
 	}
 	&__img-back {
@@ -111,4 +112,29 @@ a {
 .position {
 	position: relative;
 	top: 10px;
+}
+.back-img {
+	height: 1000px;
+	background-image: url("../img/category/category6.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: contain;
+}
+.transform {
+	position: relative;
+	padding: 150px;
+	height: 400px;
+	background-color: #d2374a;
+	&::before {
+		position: absolute;
+		content: "elephant";
+		width: 100px;
+		height: 100px;
+		background-color: #000000;
+		color: aqua;
+		top: 50%;
+		left: 50%;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) scale(2);
+	}
 }
