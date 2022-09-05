@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+*,
+::after ::before {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
 body,
 ul,
 li,
@@ -125,8 +132,10 @@ span {
   display: flex;
 }
 .promo__item {
+  display: flex;
+  flex-direction: column;
   width: 306px;
-  height: 305px;
+  min-height: 306px;
   padding: 10px;
 }
 .promo__name {
@@ -162,6 +171,79 @@ span {
 
 .price {
   display: flex;
+}
+
+.advert__wrapper {
+  display: flex;
+}
+.advert__ad-salon {
+  max-width: 630px;
+  width: 100%;
+  max-height: 458px;
+  margin-right: 20px;
+  background-image: url(../img/advert/);
+}
+.advert__purch {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #d2374a;
+}
+.advert__title-salon {
+  padding-bottom: 32px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #202020;
+}
+.advert__ben-salon {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #848484;
+}
+.advert__name-salon {
+  margin-bottom: 14px;
+  margin-left: 9px;
+}
+.advert__ad-sites {
+  max-width: 630px;
+  width: 100%;
+  max-height: 450px;
+}
+.advert__purch-sites {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #d2374a;
+}
+.advert__title-sites {
+  padding-bottom: 32px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #202020;
+}
+.advert__ben-sites {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  color: #848484;
+}
+.advert__item-sites {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.advert__item-salon + .advert__item-salon {
+  margin-top: 14px;
 }
 
 .ex {
