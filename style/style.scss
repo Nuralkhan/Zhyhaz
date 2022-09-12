@@ -180,7 +180,7 @@ span {
 		width: 100%;
 		max-height: 458px;
 		margin-right: 20px;
-		background-image: url(../img/advert/);
+		background-image: url(../img/advert/ad-salon-img.png);
 	}
 	&__purch {
 		//padding-top: 35px;
@@ -211,8 +211,6 @@ span {
 		color: #848484;
 	}
 	&__name-salon {
-		margin-bottom: 14px;
-		margin-left: 9px;
 	}
 	&__ad-sites {
 		max-width: 630px;
@@ -251,12 +249,20 @@ span {
 		gap: 9px;
 		align-items: center;
 	}
+	&__item-salon {
+		display: flex;
+		gap: 9px;
+		align-items: center;
+	}
 }
 
 .advert__item-salon + .advert__item-salon {
 	margin-top: 14px;
 }
-.ex {
+.advert__item-sites + .advert__item-sites {
+	margin-top: 14px;
+}
+.advert__item-site .ex {
 	background-color: darkgreen;
 	max-width: 200px;
 	height: 200px;
