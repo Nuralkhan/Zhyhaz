@@ -1,8 +1,8 @@
 "use strict";
-let obj = {
-	name: "Nura",
-	sayhello() {
-		console.log(obj.name);
-	},
+let obj1 = {
+	user: "Ali",
 };
-obj.sayhello();
+let obj2 = {
+	user: "Ali",
+};
+console.log(obj1 === obj2);
